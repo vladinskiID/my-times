@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  z-index: 1;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  top: 120px;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .times {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+div .content {
+  display: flex;
+  width: 100%;
+}
+
+div .title {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+  text-align: left;
+  padding: 0px 0px 0px 15px;
+}
+
+div .news {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+div .info p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div .info .bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
+
+div .cats {
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+}
+
+div .camera {
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+}
+
+div .earth {
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+}
+
+div .cookie h2 {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.content {
+  display: flex;
+  background-color: red;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.medium {
+  width: 300px;
+  margin: 0px 30px;
+}
+
+.column.small {
+  width: 240px;
+  text-align: center;
+}
